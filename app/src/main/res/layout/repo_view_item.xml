@@ -71,7 +71,7 @@
         app:layout_constraintEnd_toStartOf="@+id/repo_stars"
         app:layout_constraintBottom_toBottomOf="@+id/repo_stars"
         app:layout_constraintTop_toTopOf="@+id/repo_stars"
-    />
+        android:contentDescription="@string/stars" />
 
     <TextView
         android:id="@+id/repo_stars"
@@ -92,7 +92,7 @@
         app:layout_constraintEnd_toStartOf="@+id/repo_forks"
         app:layout_constraintBottom_toBottomOf="@+id/repo_forks"
         app:layout_constraintTop_toTopOf="@+id/repo_forks"
-    />
+        android:contentDescription="@string/forks" />
 
     <TextView
         android:id="@+id/repo_forks"

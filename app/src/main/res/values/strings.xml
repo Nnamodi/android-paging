@@ -22,4 +22,7 @@
     <string name="no_results">No results 😓</string>
     <string name="unknown">\?</string>
     <string name="retry">Retry</string>
+    <string name="fork">Fork</string>
+    <string name="stars">Stars</string>
+    <string name="forks">Forks</string>
 </resources>
