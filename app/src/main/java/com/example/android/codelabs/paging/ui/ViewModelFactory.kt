@@ -21,10 +21,12 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.savedstate.SavedStateRegistryOwner
 import com.example.android.codelabs.paging.data.GithubRepository
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 /**
  * Factory for ViewModels
  */
+@ExperimentalCoroutinesApi
 class ViewModelFactory(
     owner: SavedStateRegistryOwner,
     private val repository: GithubRepository

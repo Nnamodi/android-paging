@@ -21,12 +21,14 @@ import androidx.savedstate.SavedStateRegistryOwner
 import com.example.android.codelabs.paging.api.GithubService
 import com.example.android.codelabs.paging.data.GithubRepository
 import com.example.android.codelabs.paging.ui.ViewModelFactory
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 /**
  * Class that handles object creation.
  * Like this, objects can be passed as parameters in the constructors and then replaced for
  * testing, where needed.
  */
+@ExperimentalCoroutinesApi
 object Injection {
 
     /**
